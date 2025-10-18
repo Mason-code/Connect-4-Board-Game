@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\Connect-4-Board-Game\\Connect4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D99A58-A6EF-4FF9-9838-DFEB77AFAA3D}|Connect4.vcxproj|C:\\Dev\\Connect-4-Board-Game\\Connect4\\Connect4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8D99A58-A6EF-4FF9-9838-DFEB77AFAA3D}|Connect4.vcxproj|solutionrelative:Connect4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Connect4.cpp",
+              "DocumentMoniker": "C:\\Dev\\Connect-4-Board-Game\\Connect4\\Connect4.cpp",
+              "RelativeDocumentMoniker": "Connect4.cpp",
+              "ToolTip": "C:\\Dev\\Connect-4-Board-Game\\Connect4\\Connect4.cpp",
+              "RelativeToolTip": "Connect4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-18T01:53:51.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
