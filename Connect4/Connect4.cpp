@@ -4,6 +4,7 @@
 #include <random>
 #include <algorithm>
 #include <limits>
+#include <conio.h>
 
 
 // tells compiler the functions exists
@@ -71,8 +72,8 @@ void myTurn() {
 
 
     std::cout << "(Type something to continue!)" << std::endl;
-    std::string temp = "";
-    std::cin >> temp;
+    while (true) { if (_kbhit()) break; }
+
 }
 
 
@@ -115,7 +116,7 @@ std::vector<std::pair<int, int>> myPathfinder() {
 
 
     //print
-    for (int l = 0; l < chooseFromThese.size(); l++) {
+    /*for (int l = 0; l < chooseFromThese.size(); l++) {
         if (tempGrid[chooseFromThese[l].first][chooseFromThese[l].second] == EMPTY)
             tempGrid[chooseFromThese[l].first][chooseFromThese[l].second] = POSSIBLE;
     }
@@ -123,7 +124,7 @@ std::vector<std::pair<int, int>> myPathfinder() {
     for (int i = 0; i < 6; i++) {
         for (int k = 0; k < 7; k++) std::cout << tempGrid[i][k];
         std::cout << "\n";
-    }
+    }*/
 
     return chooseFromThese;
 }
@@ -153,7 +154,6 @@ int preventOppFour() {
                 which = { coord.first, coord.second };
             }
            
-
         }
         
         if (foundOpp == 3) {
