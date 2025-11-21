@@ -1,5 +1,9 @@
 ﻿  Connect4.cpp
-C:\Dev\Connect-4-Board-Game\Connect4\Connect4.cpp(124,1): warning C4715: 'dropCoin': not all control paths return a value
+C:\Dev\Connect-4-Board-Game\Connect4\Connect4.cpp(188,66): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Dev\Connect-4-Board-Game\Connect4\Connect4.cpp(188,66): warning C4267:         with
+C:\Dev\Connect-4-Board-Game\Connect4\Connect4.cpp(188,66): warning C4267:         [
+C:\Dev\Connect-4-Board-Game\Connect4\Connect4.cpp(188,66): warning C4267:             _Ty=int
+C:\Dev\Connect-4-Board-Game\Connect4\Connect4.cpp(188,66): warning C4267:         ]
   Connect4.vcxproj -> C:\Dev\Connect-4-Board-Game\Connect4\x64\Debug\Connect4.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
