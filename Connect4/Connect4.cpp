@@ -62,7 +62,7 @@ void myTurn() {
     std::cout << "Your Turn" << "\n";
     int col = chooseMyColumn(); // computer needs to do this
     int lvl = dropCoin(col);
-    while (lvl == 0) {
+    while (lvl == -1) {
         std::cout << "Column is full, pick another" << "\n";
         col = takeColInput();
         lvl = dropCoin(col);
@@ -265,7 +265,7 @@ void opponentTurn()
     std::cout << "Oppenent's Turn" << "\n";
     int col = takeColInput() -1;
     int lvl = dropCoin(col);
-    while (lvl == 0) {
+    while (lvl == -1) {
         std::cout << "Column is full, pick another" << "\n";
         col = takeColInput() -1;
         lvl = dropCoin(col);
@@ -304,6 +304,6 @@ int dropCoin(int column) // manipulates human values but uses computer values wh
             lvl--;
         }
     }
-    return 0;
+    return -1;
 }
 
